@@ -2,7 +2,7 @@
 
 const CONFIG = {
   github: {
-    username: 'arifszn', // Your GitHub org/user name. (This is the only required config)
+    username: 'ArjunAranetaCodes', // Your GitHub org/user name. (This is the only required config)
   },
   /**
    * If you are deploying to https://<USERNAME>.github.io/, for example your repository is at https://github.com/arifszn/arifszn.github.io, set base to '/'.
@@ -14,7 +14,7 @@ const CONFIG = {
     github: {
       display: true, // Display GitHub projects?
       header: 'Github Projects',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      mode: 'manual', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
@@ -25,7 +25,18 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [
+          'ArjunAranetaCodes/Jobby',
+          'ArjunAranetaCodes/LangChain-Guides',
+          'ArjunAranetaCodes/MoreCodes-Youtube',
+          'ArjunAranetaCodes/InventorySystem-Spring-ReactJS',
+          'ArjunAranetaCodes/HibernateProjects',
+          'ArjunAranetaCodes/JavaSpringProjects',
+          'ArjunAranetaCodes/PomoTune-Pomodoro-App',
+          'ArjunAranetaCodes/Issue-Tracker',
+          'ArjunAranetaCodes/TailwindCSS-Projects',
+          'ArjunAranetaCodes/JavaPractices',
+        ], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -33,17 +44,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: 'Jobby',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Jobby is a cutting-edge job board website designed to revolutionize the way job seekers find opportunities and employers post vacancies.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'PomoTune',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            'Pomotune: Your personal productivity companion, leveraging the Pomodoro Technique to enhance focus and efficiency.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
@@ -52,111 +63,139 @@ const CONFIG = {
     },
   },
   seo: {
-    title: 'Portfolio of Ariful Alam',
+    title: 'Portfolio of Arjun Araneta',
     description: '',
     imageURL: '',
   },
   social: {
-    linkedin: 'ariful-alam',
-    twitter: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    linkedin: 'arjun-araneta',
+    twitter: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
-    youtube: '', // example: 'pewdiepie'
+    youtube: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     skype: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: '',
     phone: '',
-    email: 'arifulalamszn@gmail.com',
+    email: 'arjunaraneta@gmail.com',
   },
   resume: {
-    fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'Resume-Arjun-Araneta2024.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
+    'Java',
+    'Spring',
+    'Hibernate',
+    'JUnit',
     'JavaScript',
     'React.js',
+    'Next.js',
     'Node.js',
-    'Nest.js',
+    'Angular',
+    'Vue',
+    'PHP',
+    'Laravel',
+    'MSSQL',
+    'Oracle Database',
     'MySQL',
     'PostgreSQL',
     'Git',
     'Docker',
-    'PHPUnit',
     'CSS',
-    'Antd',
     'Tailwind',
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
+      company: 'Telus International Philippines',
+      position: 'Java/Intermediate Applications Developer',
+      from: 'May 17, 2021',
+      to: 'December 31, 2023',
+      companyLink: '',
     },
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
+      company: 'KR Solutions/Racami LTD',
+      position: 'Java Developer',
+      from: 'January 7, 2019',
+      to: 'May 7, 2021',
+      companyLink: '',
     },
   ],
   certifications: [
     {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
+      name: 'Oracle Certified Professional, Java SE 8 Programmer',
+      body: '',
+      year: '',
+      link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=8666D7A3CDA0F8E42B5E234202A62257236A9CE2648E47C88EC1C9B13745105C',
+    },
+    {
+      name: 'Oracle Certified Professional, Java SE 8 Associate',
+      body: '',
+      year: '',
+      link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=0FBDB523F8B9B53DECB8E5CDAE34291582F6E7D512F6C08388EDFA529DC3757B',
+    },
+    {
+      name: 'Oracle Certified Foundations Associate',
+      body: '',
+      year: '',
+      link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=0FBDB523F8B9B53DECB8E5CDAE34291582F6E7D512F6C08388EDFA529DC3757B',
+    },
+    {
+      name: 'Oracle Cloud Infrastructure 2023 Certified Foundations Associate',
+      body: '',
+      year: '',
+      link: 'https://catalog-education.oracle.com/pls/certview/sharebadge?id=76688ACFFB4AAB6EB05CB94B7E09899D6CC7C499F008A836D04D51E7F4EBB199',
+    },
+    {
+      name: 'React.JS Certification',
+      body: '',
+      year: '',
+      link: 'https://my-learning.w3schools.com/certificates',
+    },
+    {
+      name: 'Node JS Training and Fundamentals',
+      body: '',
+      year: '',
+      link: 'ude.my/UC-NEBGPZGJ',
+    },
+    {
+      name: 'Angular v4',
+      body: '',
+      year: '',
+      link: 'ude.my/UC-VUFGUOGK',
+    },
+    {
+      name: 'Jenkins From Zero to Hero',
+      body: '',
+      year: '',
+      link: 'ude.my/UC-29656060-c1ae-4ca4-858e-fbcd74fc9b1b',
     },
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Divine Word College of San Jose',
+      degree: 'Bachelor Of Science in Computer Science',
+      from: '2008',
+      to: '2012',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Occidental Mindoro National College',
+      degree: 'Secondary Education',
+      from: '2004',
+      to: '2008',
     },
   ],
-  publications: [
-    {
-      title: 'Publication Title',
-      conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-    {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
-      journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
-      description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-    },
-  ],
+  publications: [],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    source: 'medium', // medium | dev
+    username: '@arjunaraneta', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -168,7 +207,7 @@ const CONFIG = {
     snippetVersion: 6,
   },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'corporate',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
@@ -231,11 +270,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: '',
 
   enablePWA: true,
 };
